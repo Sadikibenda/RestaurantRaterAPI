@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/asset/portfoliopic.jpg);
+    background-size: cover;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 20px;
+    background-color: rgba(0,0,0,0.5);
+    /*position: fixed;
+    width: 100%; */
+}
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #f9003d;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: rgb(187, 66, 66);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.3);
+    padding: 20px;
+    border-radius: 30px;
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.About{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.About-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.About-text h2{
+    color: black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.About-text h5{
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.About-text p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 45px;
+    text-transform: capitalize;
+}
+.Project{
+    background-color: grey;
+    color: white;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.card:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+h5{
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.parag p {
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: #f9003d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid #f9003d;
+    cursor: pointer;
+}
+.Skills{
+    width: 100%;
+    padding: 10px;
+}
+.piece{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+.fort{
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+i{
+    height: 70px;
+    font-size: 40px;
+    color: #ee6889;
+}
+i:hover{
+    color: #191919;
+}
+.Contact-me{
+    background-color: grey;
+    color: white;
+    width: 100%;
+    padding: 100px 0px;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.Contact-me p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.Contact-me .button-two{
+    background-color: #f9003d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.Contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid #f9003d;
+    cursor: pointer;
+}
